@@ -58,6 +58,7 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FF4F4F' stroke-width='64.9' stroke-opacity='0.03' %3E%3Ccircle fill='%23C9324D' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23c2304d' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23bb2f4c' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23b52d4c' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23ae2b4b' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23a72a4b' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23a0284a' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%239a264a' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23932549' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%238c2349' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23852248' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%237f2048' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23781e47' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23711d47' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%236a1b46' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23641946' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%235d1845' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23561645' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
 }
 
 hr {
@@ -79,16 +80,15 @@ p {
 /* banner */
 .banner-div {
     display: flex;
-    width: 99%;
+    flex-direction: row;
+    width: 90%;
     height: 2.3rem;
     background-color: white;
     background-size: 100%;
-    background-repeat: no-repeat;
     background-position: center right;
     padding: 1%;
-    padding-right: 0%;
     margin-bottom: 3%;
-    flex-direction: row;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .h2-banner {
@@ -420,14 +420,13 @@ footer{
     background-image: url(img/banner/fotter-back.jpg);
     background-size: cover;
     margin-top: 3%;
-    padding: 2%;
     width: 100%;
-    height: 430px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logofooter{
@@ -454,8 +453,9 @@ footer{
 
 .div-correo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    width: 60%;
 }
 
 .correo-icon{
