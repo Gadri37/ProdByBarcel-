@@ -73,9 +73,24 @@ p {
     margin-left: 2%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 6rem;
+}
+
 .h1-subtitle {
     font-size: xx-large;
+    font-family: 'Oswald ExtraLight';
 }
+
+.h2-subtitle {
+    font-size: xx-large;
+    font-family: 'Oswald ExtraLight';
+}
+
 
 /* banner */
 .banner-div {
@@ -191,14 +206,6 @@ nav div h3 {
 
 #menu:checked~.burger {
     clip-path: circle(150% at top right);
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-section[id] {
-    scroll-margin-top: 6rem;
 }
 
 /* hamb-menu-end */
