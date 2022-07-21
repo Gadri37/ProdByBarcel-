@@ -87,7 +87,7 @@ section[id] {
 }
 
 .h2-subtitle {
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'Oswald ExtraLight';
 }
 
@@ -474,7 +474,9 @@ footer{
  /* footer end */
 
 @media (min-width: 1024px) {
-    
+    span{
+        font-size: 1.2rem;
+    }
     .buttonnav {
         display: none;
     }
