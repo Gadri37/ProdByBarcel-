@@ -273,7 +273,7 @@ section[id] {
     display: flex;
     flex-direction: row;
     width: 85%;
-    height: 13rem;
+    height: 19rem;
     background-color: white;
     box-shadow: 11px 11px 0px 0 rgb(0 0 0 / 20%);
     border-left: 3px solid var(--backbuttoncolor);
@@ -495,7 +495,9 @@ footer{
         text-decoration: none;
         color: white;
     }
-       
+       .h1-subtitle{
+        font-size: 2.7rem;
+       }
         .hero {
             background-repeat: no-repeat;
             background-size: cover;
@@ -519,5 +521,10 @@ footer{
             text-align: center;
             margin-left: 5%;
             width: 40%;
+        }
+
+        .font-conteinter-politic {
+            gap: 30px;
+            height: 13rem;
         }
 }
