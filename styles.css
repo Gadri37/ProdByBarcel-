@@ -247,7 +247,6 @@ section[id] {
     flex-direction: column;
     background-color: #8d0019ba;
     color: white;
-    border: white solid 3px;
     border-radius: 15px;
     font-size: x-large;
     text-align: center;
@@ -514,7 +513,6 @@ footer{
             flex-direction: column;
             background-color: #8d0019ba;
             color: white;
-            border: white solid 3px;
             border-radius: 15px;
             font-size: x-large;
             text-align: center;
