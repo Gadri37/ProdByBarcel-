@@ -534,4 +534,11 @@ footer{
             gap: 30px;
             height: 13rem;
         }
+        /* Servicios */
+        .production-cart{
+            height: 13rem;
+        }
+        .mezcla-cart{
+            height: 13rem;
+        }
 }
