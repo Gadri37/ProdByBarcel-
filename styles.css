@@ -99,7 +99,9 @@ section[id] {
     flex-direction: row;
     width: 90%;
     height: 2.3rem;
-    background-color: white;
+    /* background-color: white; */
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,26,44,1) 100%);
     background-size: 100%;
     background-position: center right;
     padding: 1%;
