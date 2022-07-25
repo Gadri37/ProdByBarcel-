@@ -228,23 +228,19 @@ nav div h3 {
 
 @keyframes divinicio {
 
-    0%,
-    20% {
+    0%,20% {
         background-image: url(./img/banner/banner1.jpg);
     }
 
-    25%,
-    45% {
+    25%,45% {
         background-image: url(./img/banner/banner2.jpg);
     }
 
-    50%,
-    75% {
+    50%,75% {
         background-image: url(./img/banner/banner3.jpg);
     }
 
-    75%,
-    100% {
+    75%,100% {
         background-image: url(./img/banner/banner4.jpg);
     }
 }
@@ -372,7 +368,7 @@ div.container-service:first-child {
 }
 
 #imgservicio {
-    height: 25%;
+    height: 4.5rem;
     position: relative;
     bottom: 5px;
     padding: 3px;
