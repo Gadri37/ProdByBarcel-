@@ -77,6 +77,10 @@ p {
     margin-left: 2%;
 }
 
+h3 {
+    color: var(--blanco);
+}
+
 html{
     scroll-behavior: smooth;
 }
