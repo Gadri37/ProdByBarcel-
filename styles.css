@@ -442,7 +442,7 @@ footer{
     background-size: cover;
     margin-top: 3%;
     width: 100%;
-    height: 450px;
+    height: 455px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,6 +486,16 @@ footer{
         border-radius: 50%;
     }
 
+.div-diseño{
+    display: flex;
+    color: white;
+}
+.div-diseño p{
+    margin-left: 0;
+}
+.div-diseño i.git{
+    margin: 3px 10px;
+}
 
  /* footer end */
 
