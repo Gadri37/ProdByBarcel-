@@ -489,12 +489,17 @@ footer{
 .div-diseño{
     display: flex;
     color: white;
+    align-items: center;
+    gap: 0px 15px;
 }
 .div-diseño p{
     margin-left: 0;
 }
-.div-diseño i.git{
-    margin: 3px 10px;
+.div-diseño i.git:hover{
+    background-color: var(--blanco);
+    color: var(--red);
+    border-color: 1px solid var(--red);
+    border-radius: 100%;
 }
 
  /* footer end */
